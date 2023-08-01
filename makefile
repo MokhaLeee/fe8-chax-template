@@ -24,7 +24,6 @@ HACK_DIRS    := $(WIZARDRY_DIR) $(SPRITANS_DIR) $(WRITANS_DIR) $(GAMEDATA_DIR)
 # =========
 # = Tools =
 # =========
-
 ifeq ($(OS),Windows_NT)
   EXE := .exe
 else
