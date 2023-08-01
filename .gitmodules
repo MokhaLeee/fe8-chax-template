@@ -1,0 +1,6 @@
+[submodule "Tools/EventAssembler"]
+	path = Tools/EventAssembler
+	url = git@github.com:StanHash/EventAssembler.git
+[submodule "Tools/FE-CLib-Mokha"]
+	path = Tools/FE-CLib-Mokha
+	url = git@github.com:MokhaLeee/FE-CLib-Mokha.git
