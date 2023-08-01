@@ -14,7 +14,9 @@
     ```
 3. Update submodules
     ```bash
-    git submodule update --init --recursive
+    cd Tools
+    git clone https://github.com/MokhaLeee/FE-CLib-Mokha.git
+    git clone https://github.com/StanHash/EventAssembler.git --recursive
     ```
 4. Build **EventAssembler**
 
