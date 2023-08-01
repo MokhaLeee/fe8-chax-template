@@ -77,7 +77,7 @@ $(LYN_REF): $(FE8_REF) $(EXT_REF)
 	@echo "[AS ]	$@"
 	@cp $(FE8_REF) $(LYN_REF:.o=.s)
 	@cat $(EXT_REF) >> $(LYN_REF:.o=.s)
-	@$(AS) $< -o $@
+	@$(AS) $(LYN_REF:.o=.s) -o $@
 
 %.lyn.event: %.o $(LYN_REF)
 	@echo "[LYN]	$@"
